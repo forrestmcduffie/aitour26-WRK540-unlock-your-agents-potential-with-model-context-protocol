@@ -32,5 +32,8 @@ The workshop is divided into multiple sections including 16 slides, 1 demo and 2
 
 ### 🏋️Preparation
 
+
+| Resource     | Links                            | Description |
+|--------------|----------------------------------|-------------------|
 | Workshop E2E Walkthrough Video      |  [Video](https://assetsmanagement952e.blob.core.windows.net/assets/WRK540%20Unlock%20your%20agents’%20potential%20with%20Model%20Context%20Protocol%20(MCP)/WRK540_Unlock_your_Agents_Potential_with_MCP_and_Postgres_E2E_V1.0.mp4) | Video recording of the end to end workshop |
 | Workshop Docs | [Workshop Documentation](https://assetsmanagement952e.blob.core.windows.net/assets/WRK540%20Unlock%20your%20agents’%20potential%20with%20Model%20Context%20Protocol%20(MCP)/WRK540_Unlock_your_Agents_Potential_with_MCP_and_Postgres_E2E_Walk_Through_V1.0.mp4) | Workshop documentation site |
