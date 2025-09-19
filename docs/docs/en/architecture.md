@@ -9,7 +9,15 @@
 
 **Together:** the Agent Service routes user intents; the MCP server translates them into tool/SQL calls; PostgreSQL+pgvector answers semantic and analytical questions.
 
-## Architecture
+## Solution Architecture
+
+The Zava Sales Analysis solution architecture includes:
+
+- An **Azure AI Foundry Agent Service** instance that hosts the Zava Sales Analysis agent.
+- A **PostgreSQL** database with the **pgvector** extension, storing Zava sales data and embeddings.
+- An **MCP Server** that exposes the PostgreSQL database to the agent via MCP.
+- An **Agent Manager** app that manages the interaction between the user and the agent.
+- A **Web Chat** interface for real-time chat interaction with the agent.
 
 ![Image shows the architecture for the Zava Sales Analysis solution](../media/solution-overview.png)
 
