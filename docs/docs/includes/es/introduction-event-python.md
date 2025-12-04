@@ -80,7 +80,7 @@ Sigue estos pasos para abrir el taller en Visual Studio Code:
     Asegúrate de familiarizarte con las **subcarpetas** y **archivos** clave con los que trabajarás durante todo el taller.
 
     1. El archivo **app.py**: El punto de entrada para la aplicación, conteniendo su lógica principal.
-    2. El archivo **resources.txt**: Los recursos de Azure AI Foundry creados para ti en este laboratorio.
+    2. El archivo **resources.txt**: Los recursos de Microsoft Foundry creados para ti en este laboratorio.
     3. El archivo **sales_analysis.py**: La lógica de función implementada en el servidor MCP para ejecutar consultas SQL dinámicas contra la base de datos SQLite.
     4. El archivo **stream_event_handler.py**: Contiene la lógica del manejador de eventos para transmisión de tokens.
     5. La carpeta **shared/instructions**: Contiene las instrucciones del agente.

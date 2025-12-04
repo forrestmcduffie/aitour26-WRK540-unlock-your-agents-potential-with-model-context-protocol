@@ -12,14 +12,14 @@ You need to analyze sales data to find trends, understand customer preferences, 
 
 Learn to build an AI agent that analyzes sales data, answers product questions, and helps customers find products. Key topics:
 
-1. **Azure AI Foundry Agent Service**: Build and deploy AI agents with integrated tools and observability.  
+1. **Microsoft Foundry Agent Service**: Build and deploy AI agents with integrated tools and observability.  
 2. **Model Context Protocol (MCP)**: Connects the Agent Service to external tools and data over industry standard protocols to enhance agent functionality.  
 3. **PostgreSQL**: Use PostgreSQL as a vector database for semantic search and implement Row Level Security (RLS) to protect sensitive data based on user roles.
-4. **Azure AI Foundry**: An enterprise-grade AI development platform providing unified model access, comprehensive monitoring, distributed tracing capabilities, and production-ready governance for AI applications at scale.
+4. **Microsoft Foundry**: An enterprise-grade AI development platform providing unified model access, comprehensive monitoring, distributed tracing capabilities, and production-ready governance for AI applications at scale.
 
 ### Just starting your AI Agents journey?
 
-New to AI agents? Start with [Build your code-first agent with Azure AI Foundry](https://aka.ms/aitour/WRK552){:target="_blank"}. You'll build a code-first agent integrating LLMs with databases, documents, and Bing Search—a solid foundation for advanced agents like Zava.
+New to AI agents? Start with [Build your code-first agent with Microsoft Foundry](https://aka.ms/aitour/WRK552){:target="_blank"}. You'll build a code-first agent integrating LLMs with databases, documents, and Bing Search—a solid foundation for advanced agents like Zava.
 
 ## What is an LLM-Powered AI Agent?
 
@@ -29,8 +29,8 @@ Example: If a user asks, "Show total sales per store as a pie chart", the agent 
 
 This shifts much of the application logic from developers to the model. Clear instructions and dependable tools are essential for predictable agent behavior and results.
 
-## Introduction to the Azure AI Foundry
+## Introduction to the Microsoft Foundry
 
-[Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"} is Microsoft’s secure, flexible platform for designing, customizing, and managing AI apps and agents. Everything—models, agents, tools, and observability—lives behind a single portal, SDK, and REST endpoint, so you can ship to cloud or edge with governance and cost controls in place from day one.
+[Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"} is Microsoft’s secure, flexible platform for designing, customizing, and managing AI apps and agents. Everything—models, agents, tools, and observability—lives behind a single portal, SDK, and REST endpoint, so you can ship to cloud or edge with governance and cost controls in place from day one.
 
-![Azure AI Foundry Architecture](media/azure-ai-foundry.png)
+![Microsoft Foundry Architecture](media/azure-ai-foundry.png)

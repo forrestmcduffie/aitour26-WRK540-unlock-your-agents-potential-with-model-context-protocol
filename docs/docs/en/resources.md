@@ -8,7 +8,7 @@ The workshop repository on GitHub contains everything needed for the workshop. T
 
 ## Microsoft Learn resources
 
-* Documentation: [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/){:target="_blank"}
+* Documentation: [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/){:target="_blank"}
 * Module: [Fundamentals of AI agents on Azure](https://learn.microsoft.com/training/modules/ai-agent-fundamentals/){:target="_blank"}
 * Documentation: [Tracing using Application Insights](https://learn.microsoft.com/azure/ai-services/agents/concepts/tracing){:target="_blank"}, 
 * Documentation: [Evaluating your AI agents with Azure AI Evaluation SDK](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/agent-evaluate-sdk){:target="_blank"}

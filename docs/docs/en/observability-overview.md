@@ -1,6 +1,6 @@
 Observability ensures AI systems are reliable, safe, and high-quality by enabling continuous monitoring and evaluation. For technical leaders and developers, it is key to building trust and maintaining performance in generative AI applications.
 
-With Azure AI Foundry, observability means:
+With Microsoft Foundry, observability means:
 
 - Using evaluators to measure quality, safety, and reliability at every stage—from model selection to production.
 - Assessing models and applications before deployment, and monitoring them in real time after launch.
@@ -9,4 +9,4 @@ With Azure AI Foundry, observability means:
 
 Adopting observability best practices helps organizations deliver trustworthy AI, reduce risk, and meet business goals.
 
-For more details on observability, see the [Azure AI Foundry Observability Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/observability){:target="_blank"}.
+For more details on observability, see the [Microsoft Foundry Observability Overview](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/observability){:target="_blank"}.

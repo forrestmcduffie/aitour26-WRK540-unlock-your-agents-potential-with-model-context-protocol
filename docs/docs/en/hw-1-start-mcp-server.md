@@ -7,7 +7,7 @@ In this lab, you will:
 
 ## Introduction
 
-The Model Context Protocol (MCP) server is a crucial component that handles the communication between Large Language Models (LLMs) and external tools and data sources. You’ll run the MCP server on your local machine, but the Azure AI Foundry Agent Service requires internet access to connect to it. To make your local MCP server accessible from the internet, you’ll use a DevTunnel. This allows the Agent Service to communicate with your MCP server as if it were running as a service in Azure.
+The Model Context Protocol (MCP) server is a crucial component that handles the communication between Large Language Models (LLMs) and external tools and data sources. You’ll run the MCP server on your local machine, but the Microsoft Foundry Agent Service requires internet access to connect to it. To make your local MCP server accessible from the internet, you’ll use a DevTunnel. This allows the Agent Service to communicate with your MCP server as if it were running as a service in Azure.
 
 ## Interface options for MCP
 
@@ -16,14 +16,14 @@ MCP supports two main interfaces for connecting LLMs with tools:
 - **Streamable HTTP Transport**: For web-based APIs and services.
 - **Stdio Transport**: For local scripts and command-line tools.
 
-This lab uses the Streamable HTTP transport interface to integrate with the Azure AI Foundry Agent Service.
+This lab uses the Streamable HTTP transport interface to integrate with the Microsoft Foundry Agent Service.
 
 !!! note
     Normally, you'd deploy the MCP server in a production environment, but for this workshop, you'll run it locally in your development environment. This allows you to test and interact with the MCP tools without needing a full deployment.
 
 ### Start up a DevTunnel for the MCP Server
 
-1. In a new terminal, authenticate DevTunnel. You'll be prompted to log in with your Azure account, use the same account you used to log in to the Azure AI Foundry Agent Service or Azure Portal. Run the following command:
+1. In a new terminal, authenticate DevTunnel. You'll be prompted to log in with your Azure account, use the same account you used to log in to the Microsoft Foundry Agent Service or Azure Portal. Run the following command:
 
     ```bash
     devtunnel login

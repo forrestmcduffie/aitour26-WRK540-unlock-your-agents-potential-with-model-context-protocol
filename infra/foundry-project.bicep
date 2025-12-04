@@ -1,4 +1,4 @@
-@description('Name of the Azure AI Foundry account')
+@description('Name of the Microsoft Foundry account')
 @minLength(3)
 @maxLength(24)
 param foundryResourceName string
@@ -9,7 +9,7 @@ param aiProjectName string
 @description('Friendly name for your Azure AI resource')
 param aiProjectFriendlyName string
 
-@description('Description of your Azure AI resource dispayed in Azure AI Foundry')
+@description('Description of your Azure AI resource dispayed in Microsoft Foundry')
 param aiProjectDescription string
 
 @description('Model deployment location. If you want to deploy an Azure AI resource/model in different location than the rest of the resources created.')

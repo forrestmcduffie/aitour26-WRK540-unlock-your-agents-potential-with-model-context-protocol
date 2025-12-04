@@ -80,7 +80,7 @@ Follow these steps to open the workshop in Visual Studio Code:
     Be sure to familiarize yourself with the key **subfolders** and **files** you’ll be working with throughout the workshop.
 
     1. The **app.py** file: The entry point for the app, containing its main logic.
-    2. The **resources.txt** file: The Azure AI Foundry resources created for you in this lab.
+    2. The **resources.txt** file: The Microsoft Foundry resources created for you in this lab.
     3. The **sales_analysis.py** file: The function logic implemented in the MCP server to execute dynamic SQL queries against the SQLite database.
     4. The **stream_event_handler.py** file: Contains the event handler logic for token streaming.
     5. The **shared/instructions** folder: Contains the agent instructions.

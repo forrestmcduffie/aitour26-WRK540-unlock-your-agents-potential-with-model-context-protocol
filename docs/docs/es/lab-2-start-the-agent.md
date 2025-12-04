@@ -177,13 +177,13 @@ Desde el cliente de chat web, puedes iniciar una conversación con el agente. El
     !!! tip
         === "Python"
 
-            Regresa a VS Code y selecciona **MCP Server (workspace)** del panel TERMINAL y verás las llamadas hechas al Servidor MCP por el Servicio de Agentes de Azure AI Foundry.
+            Regresa a VS Code y selecciona **MCP Server (workspace)** del panel TERMINAL y verás las llamadas hechas al Servidor MCP por el Servicio de Agentes de Microsoft Foundry.
 
             ![](../media/mcp-server-in-action.png)
 
         === "C#"
 
-            En el panel de Aspire, puedes seleccionar los logs para el recurso `dotnet-mcp-server` para ver las llamadas hechas al Servidor MCP por el Servicio de Agentes de Azure AI Foundry.
+            En el panel de Aspire, puedes seleccionar los logs para el recurso `dotnet-mcp-server` para ver las llamadas hechas al Servidor MCP por el Servicio de Agentes de Microsoft Foundry.
 
             También puedes abrir la vista de trazas y encontrar el rastreo de extremo a extremo de la aplicación, desde la entrada del usuario en el chat web, hasta las llamadas del agente y las llamadas de herramientas MCP.
 

@@ -10,7 +10,7 @@ param location string
 @description('Friendly name for your Azure AI resource')
 param aiProjectFriendlyName string = 'Agents standard project resource'
 
-@description('Description of your Azure AI resource displayed in Azure AI Foundry')
+@description('Description of your Azure AI resource displayed in Microsoft Foundry')
 param aiProjectDescription string
 
 @description('Set of tags to apply to all resources.')
@@ -42,7 +42,7 @@ param uniqueSuffix string
 var resourceGroupName = toLower('rg-${resourcePrefix}-${uniqueSuffix}')
 
 var defaultTags = {
-  source: 'Azure AI Foundry Agents Service lab'
+  source: 'Microsoft Foundry Agents Service lab'
 }
 
 var rootTags = union(defaultTags, tags)

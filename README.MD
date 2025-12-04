@@ -13,20 +13,20 @@ If you will be delivering this session, check the [session-delivery-sources](./s
 
 ### Session Description
 
-Build a conversational AI agent for Zava, a retail DIY company, that analyzes sales data and helps customers find products. Learn to create secure, intelligent agents using Azure AI Foundry Agent Service, Model Context Protocol (MCP) for external data connections, and PostgreSQL with Row Level Security (RLS) and pgvector for role-based data protection and semantic search.
+Build a conversational AI agent for Zava, a retail DIY company, that analyzes sales data and helps customers find products. Learn to create secure, intelligent agents using Microsoft Foundry Agent Service, Model Context Protocol (MCP) for external data connections, and PostgreSQL with Row Level Security (RLS) and pgvector for role-based data protection and semantic search.
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, learners will be able to:
 
-1. **Azure AI Foundry Agent Service**: Build and deploy AI agents with integrated tools and observability.  
+1. **Microsoft Foundry Agent Service**: Build and deploy AI agents with integrated tools and observability.  
 2. **Model Context Protocol (MCP)**: Connects the Agent Service to external tools and data over industry standard protocols to enhance agent functionality.  
 3. **PostgreSQL**: Use PostgreSQL as a vector database for semantic search and implement Row Level Security (RLS) to protect sensitive data based on user roles.
-4. **Azure AI Foundry**: An enterprise-grade AI development platform providing unified model access, comprehensive monitoring, distributed tracing capabilities, and production-ready governance for AI applications at scale.
+4. **Microsoft Foundry**: An enterprise-grade AI development platform providing unified model access, comprehensive monitoring, distributed tracing capabilities, and production-ready governance for AI applications at scale.
 
 ### 💻 Technologies Used
 
-1. Azure AI Foundry
+1. Microsoft Foundry
 1. PostgreSQL including Row Level Security (RLS) and Semantic Search with the pgvector extension
 1. Model Context Protocol (MCP)
 
@@ -36,7 +36,7 @@ By the end of this session, learners will be able to:
 |:-------------------|:----------------------------------|:-------------------|
 | Workshop Repository | [Unlock your Agents Potential with MCP and PostgreSQL](https://github.com/microsoft/Unlock-Your-Agents-Potential-with-MCP-and-PostgreSQL) | Workshop materials and resources |
 | Workshop Docs | [Workshop Documentation](https://microsoft.github.io/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol/) | Workshop documentation site |
-| Documentation | [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/)| Azure AI Foundry documentation |
+| Documentation | [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/)| Microsoft Foundry documentation |
 | Module | [Fundamentals of AI agents on Azure](https://learn.microsoft.com/training/modules/ai-agent-fundamentals/)| Training module on AI agent fundamentals |
 | Documentation | [Tracing using Application Insights](https://learn.microsoft.com/azure/ai-services/agents/concepts/tracing)| Guide to tracing with Application Insights |
 | Documentation | [Evaluating your AI agents with Azure AI Evaluation SDK](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/agent-evaluate-sdk)| AI agent evaluation documentation |
@@ -96,11 +96,11 @@ Microsoft’s approach to responsible AI is grounded in our AI principles of f
 
 Large-scale natural language, image, and speech models - like the ones used in this sample - can potentially behave in ways that are unfair, unreliable, or offensive, in turn causing harms. Please consult the [Azure OpenAI service Transparency note](https://learn.microsoft.com/legal/cognitive-services/openai/transparency-note?tabs=text) to be informed about risks and limitations.
 
-The recommended approach to mitigating these risks is to include a safety system in your architecture that can detect and prevent harmful behavior. [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/overview) provides an independent layer of protection, able to detect harmful user-generated and AI-generated content in applications and services. Azure AI Content Safety includes text and image APIs that allow you to detect material that is harmful. Within Azure AI Foundry portal, the Content Safety service allows you to view, explore and try out sample code for detecting harmful content across different modalities. The following [quickstart documentation](https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-text?tabs=visual-studio%2Clinux&pivots=programming-language-rest) guides you through making requests to the service.
+The recommended approach to mitigating these risks is to include a safety system in your architecture that can detect and prevent harmful behavior. [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/overview) provides an independent layer of protection, able to detect harmful user-generated and AI-generated content in applications and services. Azure AI Content Safety includes text and image APIs that allow you to detect material that is harmful. Within Microsoft Foundry portal, the Content Safety service allows you to view, explore and try out sample code for detecting harmful content across different modalities. The following [quickstart documentation](https://learn.microsoft.com/azure/ai-services/content-safety/quickstart-text?tabs=visual-studio%2Clinux&pivots=programming-language-rest) guides you through making requests to the service.
 
 Another aspect to take into account is the overall application performance. With multi-modal and multi-models applications, we consider performance to mean that the system performs as you and your users expect, including not generating harmful outputs. It's important to assess the performance of your overall application using [Performance and Quality and Risk and Safety evaluators](https://learn.microsoft.com/azure/ai-studio/concepts/evaluation-metrics-built-in). You also have the ability to create and evaluate with [custom evaluators](https://learn.microsoft.com/azure/ai-studio/how-to/develop/evaluate-sdk#custom-evaluators).
 
-You can evaluate your AI application in your development environment using the [Azure AI Evaluation SDK](https://microsoft.github.io/promptflow/index.html). Given either a test dataset or a target, your generative AI application generations are quantitatively measured with built-in evaluators or custom evaluators of your choice. To get started with the azure ai evaluation sdk to evaluate your system, you can follow the [quickstart guide](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk). Once you execute an evaluation run, you can [visualize the results in Azure AI Foundry portal](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results).
+You can evaluate your AI application in your development environment using the [Azure AI Evaluation SDK](https://microsoft.github.io/promptflow/index.html). Given either a test dataset or a target, your generative AI application generations are quantitatively measured with built-in evaluators or custom evaluators of your choice. To get started with the azure ai evaluation sdk to evaluate your system, you can follow the [quickstart guide](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk). Once you execute an evaluation run, you can [visualize the results in Microsoft Foundry portal](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results).
 
 ## Compiling the Python Requirements
 

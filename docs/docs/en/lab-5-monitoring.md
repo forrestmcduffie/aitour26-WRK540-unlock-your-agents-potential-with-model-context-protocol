@@ -1,12 +1,12 @@
 ## Introduction
 
-Monitoring keeps your Azure AI Foundry Agent Service available, performant, and reliable. Azure Monitor collects metrics and logs, provides real‑time insights, and sends alerts. Use dashboards and custom alerts to track key metrics, analyze trends, and respond proactively. Access monitoring via the Azure portal, CLI, REST API, or client libraries.
+Monitoring keeps your Microsoft Foundry Agent Service available, performant, and reliable. Azure Monitor collects metrics and logs, provides real‑time insights, and sends alerts. Use dashboards and custom alerts to track key metrics, analyze trends, and respond proactively. Access monitoring via the Azure portal, CLI, REST API, or client libraries.
 
 ## Lab Exercise
 
 1. From the VS Code file explorer, open the `resources.txt` file in the `workshop` folder.
 1. **Copy** the value for the `AI Project Name` key to the clipboard.
-1. Navigate to the [Azure AI Foundry Portal](https://ai.azure.com){:target="_blank"} page.
+1. Navigate to the [Microsoft Foundry Portal](https://ai.azure.com){:target="_blank"} page.
 1. Select your project from the list of foundry projects.
 
 ## Open the Monitoring dashboard

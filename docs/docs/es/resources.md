@@ -8,7 +8,7 @@ El repositorio del taller en GitHub contiene todo lo necesario para el taller. E
 
 ## Recursos de Microsoft Learn
 
-* Documentación: [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/){:target="_blank"}
+* Documentación: [Microsoft Foundry](https://learn.microsoft.com/azure/ai-foundry/){:target="_blank"}
 * Módulo: [Fundamentos de agentes de IA en Azure](https://learn.microsoft.com/training/modules/ai-agent-fundamentals/){:target="_blank"}
 * Documentación: [Trazado usando Application Insights](https://learn.microsoft.com/azure/ai-services/agents/concepts/tracing){:target="_blank"}, 
 * Documentación: [Evaluando tus agentes de IA con Azure AI Evaluation SDK](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/agent-evaluate-sdk){:target="_blank"}

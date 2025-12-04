@@ -12,14 +12,14 @@ Necesitas analizar datos de ventas para encontrar tendencias, entender las prefe
 
 Aprende a construir un agente de IA que analiza datos de ventas, responde preguntas sobre productos y ayuda a los clientes a encontrar productos. Temas clave:
 
-1. **Servicio de Agentes de Azure AI Foundry**: Construye y despliega agentes de IA con herramientas integradas y observabilidad.  
+1. **Servicio de Agentes de Microsoft Foundry**: Construye y despliega agentes de IA con herramientas integradas y observabilidad.  
 2. **Protocolo de Contexto de Modelo (MCP)**: Conecta el Servicio de Agentes a herramientas externas y datos sobre protocolos estándar de la industria para mejorar la funcionalidad del agente.  
 3. **PostgreSQL**: Usa PostgreSQL como una base de datos vectorial para búsqueda semántica e implementa Seguridad a Nivel de Fila (RLS) para proteger datos sensibles basados en roles de usuario.
-4. **Azure AI Foundry**: Una plataforma de desarrollo de IA de grado empresarial que proporciona acceso unificado a modelos, monitoreo integral, capacidades de trazado distribuido y gobernanza lista para producción para aplicaciones de IA a escala.
+4. **Microsoft Foundry**: Una plataforma de desarrollo de IA de grado empresarial que proporciona acceso unificado a modelos, monitoreo integral, capacidades de trazado distribuido y gobernanza lista para producción para aplicaciones de IA a escala.
 
 ### ¿Recién comenzando tu viaje con Agentes de IA?
 
-¿Nuevo en agentes de IA? Comienza con [Construye tu agente code-first con Azure AI Foundry](https://aka.ms/aitour/WRK552){:target="_blank"}. Construirás un agente code-first integrando LLMs con bases de datos, documentos y Búsqueda de Bing—una base sólida para agentes avanzados como Zava.
+¿Nuevo en agentes de IA? Comienza con [Construye tu agente code-first con Microsoft Foundry](https://aka.ms/aitour/WRK552){:target="_blank"}. Construirás un agente code-first integrando LLMs con bases de datos, documentos y Búsqueda de Bing—una base sólida para agentes avanzados como Zava.
 
 ## ¿Qué es un Agente de IA Impulsado por LLM?
 
@@ -29,10 +29,10 @@ Ejemplo: Si un usuario pregunta, "Muestra las ventas totales por tienda como un 
 
 Esto traslada gran parte de la lógica de la aplicación de los desarrolladores al modelo. Instrucciones claras y herramientas confiables son esenciales para el comportamiento predecible del agente y los resultados.
 
-## Introducción a Azure AI Foundry
+## Introducción a Microsoft Foundry
 
-[Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"} es la plataforma segura y flexible de Microsoft para diseñar, personalizar y gestionar aplicaciones y agentes de IA. Todo—modelos, agentes, herramientas y observabilidad—vive detrás de un solo portal, SDK y endpoint REST, para que puedas enviar a la nube o al borde con gobernanza y controles de costos en su lugar desde el primer día.
+[Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry/){:target="_blank"} es la plataforma segura y flexible de Microsoft para diseñar, personalizar y gestionar aplicaciones y agentes de IA. Todo—modelos, agentes, herramientas y observabilidad—vive detrás de un solo portal, SDK y endpoint REST, para que puedas enviar a la nube o al borde con gobernanza y controles de costos en su lugar desde el primer día.
 
-![Arquitectura de Azure AI Foundry](media/azure-ai-foundry.png)
+![Arquitectura de Microsoft Foundry](media/azure-ai-foundry.png)
 
 *Traducido usando GitHub Copilot.*

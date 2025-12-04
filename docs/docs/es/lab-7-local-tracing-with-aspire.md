@@ -2,7 +2,7 @@
 
 !!! note "El trazado con el Panel de Aspire solo es compatible con la versión C# del taller."
 
-Hasta ahora para nuestro trazado, nos hemos enfocado en cómo visualizar esto a través de los paneles de Azure AI Foundry, lo que puede ser una interrupción en el flujo de trabajo al desarrollar localmente. Además de eso, podemos aprovechar el Panel de Aspire para visualizar las trazas generadas por nuestra aplicación en tiempo real, y cómo una acción se extiende a través de múltiples recursos dentro de nuestro sistema.
+Hasta ahora para nuestro trazado, nos hemos enfocado en cómo visualizar esto a través de los paneles de Microsoft Foundry, lo que puede ser una interrupción en el flujo de trabajo al desarrollar localmente. Además de eso, podemos aprovechar el Panel de Aspire para visualizar las trazas generadas por nuestra aplicación en tiempo real, y cómo una acción se extiende a través de múltiples recursos dentro de nuestro sistema.
 
 ## Ejecutar la Aplicación del Agente
 

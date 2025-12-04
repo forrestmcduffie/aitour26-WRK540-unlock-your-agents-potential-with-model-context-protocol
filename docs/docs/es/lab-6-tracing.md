@@ -1,6 +1,6 @@
 ## Introducción
 
-El trazado te ayuda a entender y depurar el comportamiento de tu agente mostrando la secuencia de pasos, entradas y salidas durante la ejecución. En Azure AI Foundry, el trazado te permite observar cómo tu agente procesa solicitudes, llama herramientas y genera respuestas. Puedes usar el portal de Azure AI Foundry o integrar con OpenTelemetry y Application Insights para recopilar y analizar datos de trazas, facilitando la solución de problemas y optimización de tu agente.
+El trazado te ayuda a entender y depurar el comportamiento de tu agente mostrando la secuencia de pasos, entradas y salidas durante la ejecución. En Microsoft Foundry, el trazado te permite observar cómo tu agente procesa solicitudes, llama herramientas y genera respuestas. Puedes usar el portal de Microsoft Foundry o integrar con OpenTelemetry y Application Insights para recopilar y analizar datos de trazas, facilitando la solución de problemas y optimización de tu agente.
 
 <!-- ## Ejercicio del Laboratorio
 
@@ -40,13 +40,13 @@ Write an executive report that analysis the top 5 product categories and compare
 
 ## Ver Trazas
 
-Puedes ver las trazas de la ejecución de tu agente en el portal de Azure AI Foundry o usando OpenTelemetry. Las trazas mostrarán la secuencia de pasos, llamadas de herramientas e intercambio de datos durante la ejecución del agente. Esta información es crucial para depurar y optimizar el rendimiento de tu agente.
+Puedes ver las trazas de la ejecución de tu agente en el portal de Microsoft Foundry o usando OpenTelemetry. Las trazas mostrarán la secuencia de pasos, llamadas de herramientas e intercambio de datos durante la ejecución del agente. Esta información es crucial para depurar y optimizar el rendimiento de tu agente.
 
-### Usando el Portal de Azure AI Foundry
+### Usando el Portal de Microsoft Foundry
 
-Para ver trazas en el portal de Azure AI Foundry, sigue estos pasos:
+Para ver trazas en el portal de Microsoft Foundry, sigue estos pasos:
 
-1. Navega al portal de [Azure AI Foundry](https://ai.azure.com/).
+1. Navega al portal de [Microsoft Foundry](https://ai.azure.com/).
 2. Selecciona tu proyecto.
 3. Selecciona la pestaña **Tracing** en el menú de la izquierda.
 4. Aquí, puedes ver las trazas generadas por tu agente.

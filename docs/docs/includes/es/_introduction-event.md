@@ -105,21 +105,21 @@ Sigue estos pasos para abrir el taller en Visual Studio Code:
 
             !!! note "Es posible que se te pregunte con qué programa abrir la solución. Selecciona **Visual Studio 2022**."
 
-## Endpoint del Proyecto de Azure AI Foundry
+## Endpoint del Proyecto de Microsoft Foundry
 
-A continuación, iniciamos sesión en Azure AI Foundry para recuperar el endpoint del proyecto, que la aplicación del agente usa para conectarse al Servicio de Agentes de Azure AI.
+A continuación, iniciamos sesión en Microsoft Foundry para recuperar el endpoint del proyecto, que la aplicación del agente usa para conectarse al Servicio de Agentes de Azure AI.
 
-1. Navega al sitio web de [Azure AI Foundry](https://ai.azure.com){:target="_blank"}.
+1. Navega al sitio web de [Microsoft Foundry](https://ai.azure.com){:target="_blank"}.
 2. Selecciona **Sign in** y usa el **Username** y **Password** que se encuentran en la **sección superior** de la pestaña **Resources** en el entorno del laboratorio. Haz clic en los campos **Username** y **Password** para llenar automáticamente los detalles de inicio de sesión.
     ![Credenciales de Azure](../media/azure-credentials.png){:width="500"}
-3. Lee la introducción a Azure AI Foundry y haz clic en **Got it**.
+3. Lee la introducción a Microsoft Foundry y haz clic en **Got it**.
 4. Navega a [All Resources](https://ai.azure.com/AllResources){:target="_blank"} para ver la lista de recursos de IA que han sido pre-provisionados para ti.
 5. Selecciona el nombre del recurso que comienza con **aip-** de tipo **Project**.
 
     ![Seleccionar proyecto](../media/ai-foundry-project.png){:width="500"}
 
 6. Revisa la guía de introducción y haz clic en **Close**.
-7. Desde el menú lateral **Overview**, localiza la sección **Endpoints and keys** -> **Libraries** -> **Azure AI Foundry**, haz clic en el ícono **Copy** para copiar el **Azure AI Foundry project endpoint**.
+7. Desde el menú lateral **Overview**, localiza la sección **Endpoints and keys** -> **Libraries** -> **Microsoft Foundry**, haz clic en el ícono **Copy** para copiar el **Microsoft Foundry project endpoint**.
 
     ![Copiar cadena de conexión](../media/project-connection-string.png){:width="500"}
 
@@ -134,7 +134,7 @@ A continuación, iniciamos sesión en Azure AI Foundry para recuperar el endpoin
         - Haz clic derecho en el archivo y selecciona **Rename**, o presiona <kbd>F2</kbd>.
         - Cambia el nombre del archivo a `.env` y presiona <kbd>Enter</kbd>.
 
-    3. Pega el **Project endpoint** que copiaste de Azure AI Foundry en el archivo `.env`.
+    3. Pega el **Project endpoint** que copiaste de Microsoft Foundry en el archivo `.env`.
 
         ```python
         PROJECT_ENDPOINT="<your_project_endpoint>"
@@ -172,7 +172,7 @@ A continuación, iniciamos sesión en Azure AI Foundry para recuperar el endpoin
         cd build-your-first-agent-with-azure-ai-agent-service-workshop\src\csharp\workshop\AgentWorkshop.Client
         ```
 
-    2. Agrega el **Project endpoint** que copiaste de Azure AI Foundry a los secretos de usuario.
+    2. Agrega el **Project endpoint** que copiaste de Microsoft Foundry a los secretos de usuario.
 
         ```powershell
         dotnet user-secrets set "ConnectionStrings:AiAgentService" "<your_project_endpoint>"

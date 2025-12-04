@@ -7,7 +7,7 @@ En este laboratorio, aprenderás a:
 
 ## Introducción
 
-El servidor del Protocolo de Contexto de Modelo (MCP) es un componente crucial que maneja la comunicación entre los Modelos de Lenguaje Grande (LLMs) y herramientas externas y fuentes de datos. Ejecutarás el servidor MCP en tu máquina local, pero el Servicio de Agentes de Azure AI Foundry requiere acceso a internet para conectarse a él. Para hacer tu servidor MCP local accesible desde internet, usarás un DevTunnel. Esto permite que el Servicio de Agentes se comunique con tu servidor MCP como si estuviera ejecutándose como un servicio en Azure.
+El servidor del Protocolo de Contexto de Modelo (MCP) es un componente crucial que maneja la comunicación entre los Modelos de Lenguaje Grande (LLMs) y herramientas externas y fuentes de datos. Ejecutarás el servidor MCP en tu máquina local, pero el Servicio de Agentes de Microsoft Foundry requiere acceso a internet para conectarse a él. Para hacer tu servidor MCP local accesible desde internet, usarás un DevTunnel. Esto permite que el Servicio de Agentes se comunique con tu servidor MCP como si estuviera ejecutándose como un servicio en Azure.
 
 ## Opciones de interfaz para MCP
 
@@ -16,14 +16,14 @@ MCP soporta dos interfaces principales para conectar LLMs con herramientas:
 - **Transporte HTTP Transmisible**: Para APIs y servicios basados en web.
 - **Transporte Stdio**: Para scripts locales y herramientas de línea de comandos.
 
-Este laboratorio usa la interfaz de transporte HTTP Transmisible para integrarse con el Servicio de Agentes de Azure AI Foundry.
+Este laboratorio usa la interfaz de transporte HTTP Transmisible para integrarse con el Servicio de Agentes de Microsoft Foundry.
 
 !!! note
     Normalmente, desplegarías el servidor MCP en un entorno de producción, pero para este taller, lo ejecutarás localmente en tu entorno de desarrollo. Esto te permite probar e interactuar con las herramientas MCP sin necesidad de un despliegue completo.
 
 ### Iniciar un DevTunnel para el Servidor MCP
 
-1. En una nueva terminal, autentica DevTunnel. Se te pedirá que inicies sesión con tu cuenta de Azure, usa la misma cuenta que usaste para iniciar sesión en el Servicio de Agentes de Azure AI Foundry o el Portal de Azure. Ejecuta el siguiente comando:
+1. En una nueva terminal, autentica DevTunnel. Se te pedirá que inicies sesión con tu cuenta de Azure, usa la misma cuenta que usaste para iniciar sesión en el Servicio de Agentes de Microsoft Foundry o el Portal de Azure. Ejecuta el siguiente comando:
 
     ```bash
     devtunnel login

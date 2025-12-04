@@ -1,6 +1,6 @@
 ## Tecnologías principales de un vistazo
 
-- **Servicio de Agentes de Azure AI Foundry**
+- **Servicio de Agentes de Microsoft Foundry**
   Aloja el agente impulsado por LLM; orquesta herramientas (incluyendo Servidores MCP); gestiona contexto, Intérprete de Código y transmisión de tokens; y proporciona autenticación, registro y escalado.
 - **Servidores MCP**
   MCP (Protocolo de Contexto de Modelo) es un estándar abierto que proporciona a los LLMs una interfaz unificada para herramientas externas, APIs y datos. Estandariza el descubrimiento de herramientas (como OpenAPI para REST) y mejora la composabilidad al hacer que las herramientas sean fáciles de actualizar o intercambiar según evolucionen las necesidades.
@@ -13,7 +13,7 @@
 
 La arquitectura de la solución de Análisis de Ventas de Zava incluye:
 
-- Una instancia del **Servicio de Agentes de Azure AI Foundry** que aloja el agente de Análisis de Ventas de Zava.
+- Una instancia del **Servicio de Agentes de Microsoft Foundry** que aloja el agente de Análisis de Ventas de Zava.
 - Una base de datos **PostgreSQL** con la extensión **pgvector**, almacenando datos de ventas de Zava y embeddings.
 - Un **Servidor MCP** que expone la base de datos PostgreSQL al agente a través de MCP.
 - Una aplicación **Administrador de Agentes** que gestiona la interacción entre el usuario y el agente.

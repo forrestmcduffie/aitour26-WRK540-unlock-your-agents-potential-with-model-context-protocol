@@ -76,7 +76,7 @@ mkdir -p "$(dirname "$RESOURCES_FILE_PATH")"
 
 # Write to the workshop .env file
 {
-  echo "Azure AI Foundry Resources:"
+  echo "Microsoft Foundry Resources:"
   echo "- Resource Group Name: $RESOURCE_GROUP_NAME"
   echo "- AI Project Name: $AI_PROJECT_NAME"
   echo "- Foundry Resource Name: $AI_FOUNDRY_NAME"

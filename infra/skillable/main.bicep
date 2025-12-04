@@ -7,7 +7,7 @@ param location string
 @description('Friendly name for your Azure AI resource')
 param aiProjectFriendlyName string = 'Agents standard project resource'
 
-@description('Description of your Azure AI resource displayed in Azure AI Foundry')
+@description('Description of your Azure AI resource displayed in Microsoft Foundry')
 param aiProjectDescription string = 'Project resources required for the Zava Agent Workshop.'
 
 @description('Set of tags to apply to all resources.')
@@ -88,7 +88,7 @@ param postgresAllowedIPs array = []
 
 // Variables
 var defaultTags = {
-  source: 'Azure AI Foundry Agents Service lab'
+  source: 'Microsoft Foundry Agents Service lab'
 }
 
 var rootTags = union(defaultTags, tags)
@@ -137,7 +137,7 @@ resource applicationInsights 'Microsoft.Insights/components@2020-02-02' = {
   tags: rootTags
 }
 
-// Azure AI Foundry Account
+// Microsoft Foundry Account
 resource foundryAccount 'Microsoft.CognitiveServices/accounts@2025-04-01-preview' = {
   name: foundryResourceName
   location: location
@@ -165,7 +165,7 @@ resource foundryAccount 'Microsoft.CognitiveServices/accounts@2025-04-01-preview
   tags: rootTags
 }
 
-// Azure AI Foundry Project
+// Microsoft Foundry Project
 resource foundryProject 'Microsoft.CognitiveServices/accounts/projects@2025-04-01-preview' = {
   parent: foundryAccount
   name: aiProjectName

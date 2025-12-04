@@ -8,6 +8,6 @@ Star the GitHub repository so you can easily find it later.
 
 To revisit the workshop later, click your profile picture on GitHub and select **Your stars**.
 
-## Join the Azure AI Foundry Developer Community
+## Join the Microsoft Foundry Developer Community
 
-[Join the Azure AI Foundry Developer Community](https://aka.ms/foundrydevs){:target="_blank"}, a vibrant forum for Q&A, DevBlogs with the latest updates and real-time Discord chats, events & learning.
+[Join the Microsoft Foundry Developer Community](https://aka.ms/foundrydevs){:target="_blank"}, a vibrant forum for Q&A, DevBlogs with the latest updates and real-time Discord chats, events & learning.

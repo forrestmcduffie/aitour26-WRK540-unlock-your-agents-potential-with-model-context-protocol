@@ -8,8 +8,8 @@ Marca con estrella el repositorio de GitHub para que puedas encontrarlo fácilme
 
 Para revisar el taller más tarde, haz clic en tu foto de perfil en GitHub y selecciona **Your stars**.
 
-## Únete a la Comunidad de Desarrolladores de Azure AI Foundry
+## Únete a la Comunidad de Desarrolladores de Microsoft Foundry
 
-[Únete a la Comunidad de Desarrolladores de Azure AI Foundry](https://aka.ms/foundrydevs){:target="_blank"}, un foro vibrante para preguntas y respuestas, DevBlogs con las últimas actualizaciones y chats de Discord en tiempo real, eventos y aprendizaje.
+[Únete a la Comunidad de Desarrolladores de Microsoft Foundry](https://aka.ms/foundrydevs){:target="_blank"}, un foro vibrante para preguntas y respuestas, DevBlogs con las últimas actualizaciones y chats de Discord en tiempo real, eventos y aprendizaje.
 
 *Traducido usando GitHub Copilot.*

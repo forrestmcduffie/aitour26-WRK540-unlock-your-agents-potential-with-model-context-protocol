@@ -122,8 +122,8 @@ Auténticate con Azure para permitir que la aplicación del agente acceda al Ser
 Este despliegue crea los siguientes recursos en tu suscripción de Azure.
 
 - Un grupo de recursos llamado **rg-zava-agent-wks-nnnnnnnn**
-- Un **hub de Azure AI Foundry** llamado **fdy-zava-agent-wks-nnnnnnnn**
-- Un **proyecto de Azure AI Foundry** llamado **prj-zava-agent-wks-nnnnnnnn**
+- Un **hub de Microsoft Foundry** llamado **fdy-zava-agent-wks-nnnnnnnn**
+- Un **proyecto de Microsoft Foundry** llamado **prj-zava-agent-wks-nnnnnnnn**
 - Dos modelos están desplegados: **gpt-4o** y **text-embedding-3-small**. [Ver precios.](https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/){:target="\_blank"}
 - Recurso Application Insights llamado **appi-zava-agent-wks-nnnnnnnn**. [Ver precios](https://azure.microsoft.com/pricing/calculator/?service=monitor){:target="\_blank"}
 - Para mantener bajos los costos del taller, PostgreSQL se ejecuta en un contenedor local dentro de tu Codespace o Dev Container en lugar de como un servicio en la nube. Ve [Azure Database for PostgreSQL Flexible Server](https://azure.microsoft.com/en-us/products/postgresql){:target="\_blank"} para aprender sobre las opciones para un servicio PostgreSQL administrado.
@@ -164,7 +164,7 @@ cd infra && ./deploy.sh
     Se verá similar al siguiente:
 
     ```plaintext
-    Recursos de Azure AI Foundry:
+    Recursos de Microsoft Foundry:
     - Nombre del Grupo de Recursos: rg-zava-agent-wks-nnnnnnnn
     - Nombre del Proyecto AI: prj-zava-agent-wks-nnnnnnnn
     - Nombre del Recurso Foundry: fdy-zava-agent-wks-nnnnnnnn

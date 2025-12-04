@@ -1,6 +1,6 @@
 The Foundry Agent Service offers a fully managed cloud service with SDKs for [Python](https://learn.microsoft.com/azure/ai-services/agents/quickstart?pivots=programming-language-python-azure){:target="_blank"}, [C#](https://learn.microsoft.com/azure/ai-services/agents/quickstart?pivots=programming-language-csharp){:target="_blank"}, and [TypeScript](https://learn.microsoft.com/azure/ai-foundry/agents/quickstart?pivots=programming-language-typescript){:target="_blank"}. The Foundry SDKs simplify AI agent development, reducing complex tasks like tool calling MCP Server tools with just a few lines of code.
 
-The Azure AI Foundry Agent Service offers several advantages over traditional agent platforms:
+The Microsoft Foundry Agent Service offers several advantages over traditional agent platforms:
 
 - **Rapid Deployment**: Optimized SDK for fast deployment, letting developers focus on building agents.  
 - **Scalability**: Designed to handle varying user loads without performance issues.  

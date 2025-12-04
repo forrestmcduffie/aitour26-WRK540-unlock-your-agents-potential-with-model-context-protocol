@@ -1,4 +1,4 @@
-@description('Name of the Azure AI Foundry account')
+@description('Name of the Microsoft Foundry account')
 @minLength(3)
 @maxLength(24)
 param foundryResourceName string

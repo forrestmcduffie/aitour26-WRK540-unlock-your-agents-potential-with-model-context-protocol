@@ -80,7 +80,7 @@ if (-not (Test-Path $resDir)) { New-Item -ItemType Directory -Path $resDir -Forc
 if (Test-Path $RESOURCES_FILE_PATH) { Remove-Item -Path $RESOURCES_FILE_PATH -Force }
 
 @(
-  "Azure AI Foundry Resources:",
+  "Microsoft Foundry Resources:",
   "- Resource Group Name: $RESOURCE_GROUP_NAME",
   "- AI Project Name: $AI_PROJECT_NAME",
   "- Foundry Resource Name: $AI_FOUNDRY_NAME",

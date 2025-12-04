@@ -118,7 +118,7 @@ $RESOURCES_FILE_PATH = Join-Path $workshopDir "resources.txt"
 if (Test-Path $RESOURCES_FILE_PATH) { Remove-Item -Path $RESOURCES_FILE_PATH -Force }
 
 @(
-  "Azure AI Foundry Resources:",
+  "Microsoft Foundry Resources:",
   "- Resource Group Name: $ResourceGroup",
   "- AI Project Name: $aiProjectName",
   "- Foundry Resource Name: $aiFoundryName",
@@ -141,7 +141,7 @@ $CSHARP_RESOURCES_FILE_PATH = Join-Path $workshopRoot "csharp\resources.txt"
 if (Test-Path $CSHARP_RESOURCES_FILE_PATH) { Remove-Item -Path $CSHARP_RESOURCES_FILE_PATH -Force }
 
 @(
-  "Azure AI Foundry Resources:",
+  "Microsoft Foundry Resources:",
   "- Resource Group Name: $ResourceGroup",
   "- AI Project Name: $aiProjectName",
   "- Foundry Resource Name: $aiFoundryName",

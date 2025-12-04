@@ -1,6 +1,6 @@
 ## Core technologies at a glance
 
-- **Azure AI Foundry Agent Service**
+- **Microsoft Foundry Agent Service**
   Hosts the LLM-driven agent; orchestrates tools (including MCP Servers); manages context, Code Interpreter, and token streaming; and provides authentication, logging, and scaling.
 - **MCP Servers**
   MCP (Model Context Protocol) is an open standard that gives LLMs a unified interface to external tools, APIs, and data. It standardizes tool discovery (like OpenAPI for REST) and improves composability by making tools easy to update or swap as needs evolve.
@@ -13,7 +13,7 @@
 
 The Zava Sales Analysis solution architecture includes:
 
-- An **Azure AI Foundry Agent Service** instance that hosts the Zava Sales Analysis agent.
+- An **Microsoft Foundry Agent Service** instance that hosts the Zava Sales Analysis agent.
 - A **PostgreSQL** database with the **pgvector** extension, storing Zava sales data and embeddings.
 - An **MCP Server** that exposes the PostgreSQL database to the agent via MCP.
 - An **Agent Manager** app that manages the interaction between the user and the agent.

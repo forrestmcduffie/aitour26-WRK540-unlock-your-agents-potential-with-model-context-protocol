@@ -8,10 +8,10 @@ param aiProjectName string
 @description('Set of tags to apply to all resources.')
 param tags object = {}
 
-@description('Location for the Azure AI Foundry resource')
+@description('Location for the Microsoft Foundry resource')
 param location string
 
-@description('Name of the Azure AI Foundry account')
+@description('Name of the Microsoft Foundry account')
 @minLength(3)
 @maxLength(24)
 param foundryResourceName string

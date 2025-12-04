@@ -26,7 +26,7 @@
       "type": "string",
       "defaultValue": "Project resources required for the Zava Agent Workshop.",
       "metadata": {
-        "description": "Description of your Azure AI resource displayed in Azure AI Foundry"
+        "description": "Description of your Azure AI resource displayed in Microsoft Foundry"
       }
     },
     "tags": {
@@ -167,7 +167,7 @@
   },
   "variables": {
     "defaultTags": {
-      "source": "Azure AI Foundry Agents Service lab"
+      "source": "Microsoft Foundry Agents Service lab"
     },
     "rootTags": "[union(variables('defaultTags'), parameters('tags'))]",
     "aiProjectName": "[toLower(format('prj-zava-agent-wks-{0}', parameters('uniqueSuffix')))]",

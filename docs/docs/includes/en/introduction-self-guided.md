@@ -122,8 +122,8 @@ Authenticate with Azure to allow the agent app access to the Azure AI Agents Ser
 This deployment creates the following resources in your Azure subscription.
 
 - A resource group named **rg-zava-agent-wks-nnnnnnnn**
-- An **Azure AI Foundry hub** named **fdy-zava-agent-wks-nnnnnnnn**
-- An **Azure AI Foundry project** named **prj-zava-agent-wks-nnnnnnnn**
+- An **Microsoft Foundry hub** named **fdy-zava-agent-wks-nnnnnnnn**
+- An **Microsoft Foundry project** named **prj-zava-agent-wks-nnnnnnnn**
 - Two models are deployed: **gpt-4o** and **text-embedding-3-small**. [See pricing.](https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/){:target="\_blank"}
 - Application Insights resource named **appi-zava-agent-wks-nnnnnnnn**. [See pricing](https://azure.microsoft.com/pricing/calculator/?service=monitor){:target="\_blank"}
 - To keep workshop costs low, PostgreSQL runs in a local container within your Codespace or Dev Container rather than as a cloud service. See [Azure Database for PostgreSQL Flexible Server](https://azure.microsoft.com/en-us/products/postgresql){:target="\_blank"} to learn about options for a managed PostgreSQL service.
@@ -164,7 +164,7 @@ cd infra && ./deploy.sh
     I'll look similar to the following:
 
     ```plaintext
-    Azure AI Foundry Resources:
+    Microsoft Foundry Resources:
     - Resource Group Name: rg-zava-agent-wks-nnnnnnnn
     - AI Project Name: prj-zava-agent-wks-nnnnnnnn
     - Foundry Resource Name: fdy-zava-agent-wks-nnnnnnnn

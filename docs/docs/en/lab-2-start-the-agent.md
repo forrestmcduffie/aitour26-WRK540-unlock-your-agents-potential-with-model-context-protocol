@@ -177,13 +177,13 @@ From the web chat client, you can start a conversation with the agent. The agent
     !!! tip
         === "Python"
 
-            Switch back to VS Code and select **MCP Server (workspace)** from the TERMINAL panel and you'll see the calls made to the MCP Server by the Azure AI Foundry Agent Service.
+            Switch back to VS Code and select **MCP Server (workspace)** from the TERMINAL panel and you'll see the calls made to the MCP Server by the Microsoft Foundry Agent Service.
 
             ![](../media/mcp-server-in-action.png)
 
         === "C#"
 
-            In the Aspire dashboard, you can select the logs for the `dotnet-mcp-server` resource to see the calls made to the MCP Server by the Azure AI Foundry Agent Service.
+            In the Aspire dashboard, you can select the logs for the `dotnet-mcp-server` resource to see the calls made to the MCP Server by the Microsoft Foundry Agent Service.
 
             You can also open the trace view and find the end-to-end trace of the application, from the user input in the web chat, through to the agent calls and MCP tool calls.
 
