@@ -37,7 +37,9 @@
         "postgres_password": "postgres",
         "postgres_db": "zava"
     },
-    "forwardPorts": [8005],
+    "forwardPorts": [
+        8005
+    ],
     "portsAttributes": {
         "8005": {
             "label": "Web Chat App",
