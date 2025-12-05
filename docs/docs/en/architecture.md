@@ -44,26 +44,7 @@ The workshop pattern can be adapted (e.g., customer support) by updating the dat
 
 In the workshop environment, the Agent Service runs in Azure but needs to connect to your locally-running MCP Server. DevTunnel creates a secure tunnel that exposes your local MCP Server to the cloud-based Agent Service.
 
-```plaintext
-          Azure Cloud                           Local Development
-    ┌─────────────────────┐                  ┌─────────────────────┐
-    │   Zava Agent App    │                  │                     │
-    │   (Azure-hosted)    │                  │  ┌─────────────────┐│
-    │                     │                  │  │   MCP Server    ││
-    │ ┌─────────────────┐ │                  │  │ (sales_analysis)││
-    │ │  Agent Service  │ │                  │  │ localhost:8000  ││
-    │ │                 │ │                  │  └─────────────────┘│
-    │ └─────────────────┘ │                  │           │         │
-    └─────────────────────┘                  │           ▼         │
-              │                              │  ┌─────────────────┐│
-              │ HTTPS requests               │  │   PostgreSQL    ││
-              ▼                              │  │   + pgvector    ││
-    ┌─────────────────────┐                  │  └─────────────────┘│
-    │   DevTunnel         │                  │                     │
-    │   Public Endpoint   │◄─────────────────┼──── Secure Tunnel   │
-    │ (*.devtunnels.ms)   │    Port Forward  │                     │
-    └─────────────────────┘                  └─────────────────────┘
-```
+![Dev Tunnel Architecture](../media/devtunnel-architecture.png)
 
 **How DevTunnel Works in the Workshop:**
 

@@ -44,26 +44,7 @@ El patrón del taller se puede adaptar (ej., soporte al cliente) actualizando la
 
 En el entorno del taller, el Servicio de Agentes se ejecuta en Azure pero necesita conectarse a tu Servidor MCP ejecutándose localmente. DevTunnel crea un túnel seguro que expone tu Servidor MCP local al Servicio de Agentes basado en la nube.
 
-```plaintext
-          Nube Azure                          Desarrollo Local
-    ┌─────────────────────┐                  ┌─────────────────────┐
-    │   App Agente Zava   │                  │                     │
-    │  (Alojado en Azure) │                  │  ┌─────────────────┐│
-    │                     │                  │  │ Servidor MCP    ││
-    │ ┌─────────────────┐ │                  │  │(sales_analysis) ││
-    │ │ Servicio de     │ │                  │  │ localhost:8000  ││
-    │ │ Agentes Azure AI│ │                  │  └─────────────────┘│
-    │ └─────────────────┘ │                  │           │         │
-    └─────────────────────┘                  │           ▼         │
-              │                              │  ┌─────────────────┐│
-              │ Solicitudes HTTPS            │  │   PostgreSQL    ││
-              ▼                              │  │   + pgvector    ││
-    ┌─────────────────────┐                  │  └─────────────────┘│
-    │   DevTunnel         │                  │                     │
-    │ Endpoint Público    │◄─────────────────┼──── Túnel Seguro    │
-    │ (*.devtunnels.ms)   │ Reenvío de Puerto│                     │
-    └─────────────────────┘                  └─────────────────────┘
-```
+![Dev Tunnel Architecture](../media/devtunnel-architecture.png)
 
 **Cómo Funciona DevTunnel en el Taller:**
 
